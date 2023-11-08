@@ -1,0 +1,202 @@
+$primary-color: #ed1010;
+$secondary-color: #ffcc00;
+$background :#8d8d8d85;
+
+nav {
+
+    background-color: $background;
+    display: flex;
+    justify-content: center;
+
+    header {
+
+        margin: 20px;
+
+        a {
+            text-decoration: none;
+            margin: 20px;
+            color: $primary-color;
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            padding: 8px;
+        }
+        a:hover {
+            transition: 0.5s;
+            background-color: $secondary-color;
+        }
+
+    }
+    
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: $background;
+
+    .contato{
+        margin-left: 8%;
+        margin: 2%;
+
+        ul {
+            margin-left: 8%;
+            list-style: none;
+        }
+
+        li {
+            margin: 1.5%;
+        }
+
+        a {
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            color: $primary-color; 
+        }
+
+        a:hover {
+            transition: background .4;
+            color: $secondary-color;
+        }
+    }
+
+    .sobre {
+        margin-left: 8%;
+        margin: 2%;
+
+        ul {
+            margin-left: 8%;
+            list-style: none;
+        }
+
+        li {
+            margin: 1.5%;
+        }
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
+            font-size: 26px; 
+        }
+        a:hover{
+            transition: background .4s;
+            color: $secondary-color;
+        }
+    }
+}
+
+
+
+@media (max-width: 965px) {
+
+    nav {
+        flex-direction: column;
+        header {
+    
+            a {
+                font-size: 18px;
+                padding: 5px;
+            }
+    
+        }
+        
+    }
+
+    
+    
+}
+@media (max-width: 720px) {
+
+    nav {
+    
+        header {
+    
+            a {
+                font-size: 16px;
+                padding: 3px;
+            }
+    
+        }
+        
+    }
+
+    footer {
+    
+        .contato{
+            a {
+                font-size: 20px;
+            }
+        }
+    
+        .sobre {
+            a {
+                font-size: 20px; 
+            }
+    }
+    }
+    
+}
+@media (max-width: 500px) {
+
+    nav {
+    
+        header {
+    
+            a {
+                font-size: 14px;
+            }
+    
+        }
+        
+    }
+
+    footer {
+    
+        .contato{
+            a {
+                font-size: 17px;
+            }
+        }
+    
+        .sobre {
+            a {
+                font-size: 17px; 
+            }
+    }
+    }
+    
+}
+@media (max-width: 360px) {
+
+    nav {
+    
+        header {
+    
+            a {
+                font-size: 12px;
+            }
+    
+        }
+        
+    }
+
+    footer {
+    
+        .contato{
+            a {
+                font-size: 14px;
+            }
+        }
+    
+        .sobre {
+            a {
+                font-size: 14px; 
+            }
+    }
+    }
+    
+}

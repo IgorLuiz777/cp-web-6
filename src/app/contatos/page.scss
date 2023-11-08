@@ -1,0 +1,61 @@
+
+$primary-color: #ed1010;
+$secondary-color: #ffcc00;
+$background :#8d8d8d85;
+
+.formulario {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    margin: 100px auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    h2 {
+        color: $primary-color;
+    }
+    .form {
+        label {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        textarea {
+            min-height: 8rem;
+            resize: vertical;
+        }
+        .form1 {
+            margin-top: 10px;
+            display: block;
+            width: 100%;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        
+        .contato-button {
+            background-color: $primary-color;
+            color: #fff;
+            border: none;
+            width: 200px;
+            font-size: 25px;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .contato-button:hover {
+            background-color: $secondary-color;
+            color: #000;
+        }  
+    }
+    
+}
+
+

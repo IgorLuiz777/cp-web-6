@@ -1,0 +1,83 @@
+$primary-color: #ed1010;
+$secondary-color: #ffcc00;
+$background: #8d8d8d85;
+
+h2 {
+    color: $primary-color;
+    font-size: 40px;
+    margin: 2%;
+}
+h1 {
+    color: $primary-color;
+    font-size: 40px;
+    margin: 2%;
+}
+
+.card {
+    display: inline-block;
+    border: 1px solid $primary-color;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 15%;
+    height: 680px;
+    vertical-align: top;
+    text-align: justify;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        margin: 8px 0;
+    }
+
+
+    background-color: $background;
+
+
+    p:nth-child(6) {
+        color: $primary-color;
+    }
+    
+    button {
+        background-color: $secondary-color; 
+        border: none;
+        color: $primary-color;
+        padding: 10px 25px;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        font-size: 18px;
+        margin: auto;
+        cursor: pointer;
+    }
+}
+@media (max-width: 960px) {
+    .card{
+        max-width: 25%;
+    }
+    
+}
+
+@media (max-width: 720px) {
+    .card{
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        max-width: 40%;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .card {
+        max-width: 50%;
+    }
+
+}
