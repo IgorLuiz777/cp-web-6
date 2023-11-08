@@ -1,5 +1,4 @@
 
-import HomeContent from "@/components/homeContent"
 import { Card } from "@/components/card"
 import { listaProdutos } from "@/components/listaProdutos"
 

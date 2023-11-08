@@ -3,3 +3,12 @@
   padding: 0;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+.sobre_content {
+  margin-bottom: 280px;
+}
+.sobre_content p {
+  font-size: 25px;
+  margin: 2%;
+}
